@@ -4,7 +4,7 @@
             xmlns:views="clr-namespace:XamarinMiniCrm.Views"
             x:Class="XamarinMiniCrm.Views.MainPage">
     <TabbedPage.Children>
-        <NavigationPage Title="Browse">
+        <NavigationPage Title="Companies">
             <NavigationPage.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
                     <On Platform="iOS" Value="tab_feed.png"/>
@@ -14,8 +14,17 @@
                 <views:ItemsPage />
             </x:Arguments>
         </NavigationPage>
-        
-        <NavigationPage Title="About">
+        <NavigationPage Title="Employees">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_feed.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:ItemsPage />
+            </x:Arguments>
+        </NavigationPage>        
+        <NavigationPage Title="MiniCrm">
             <NavigationPage.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">
                     <On Platform="iOS" Value="tab_about.png"/>
