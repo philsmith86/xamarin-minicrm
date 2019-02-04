@@ -11,7 +11,7 @@
                 </OnPlatform>
             </NavigationPage.Icon>
             <x:Arguments>
-                <views:ItemsPage />
+                <views:CompaniesPage />
             </x:Arguments>
         </NavigationPage>
         <NavigationPage Title="Employees">
@@ -21,7 +21,7 @@
                 </OnPlatform>
             </NavigationPage.Icon>
             <x:Arguments>
-                <views:ItemsPage />
+                <views:EmployeesPage />
             </x:Arguments>
         </NavigationPage>        
         <NavigationPage Title="MiniCrm">

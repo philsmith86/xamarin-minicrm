@@ -42,7 +42,7 @@ namespace XamarinMiniCrm.ViewModels
                 var items = await DataStore.GetItemsAsync(true);
                 foreach (var item in items)
                 {
-                    Items.Add(item);
+                    Items.Add(item);                    
                 }
             }
             catch (Exception ex)
